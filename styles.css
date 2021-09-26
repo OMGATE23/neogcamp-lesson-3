@@ -98,6 +98,8 @@ hr {
 
 .footer .footer-header {
     color: white;
+    font-weight: bold;
+    font-size: large;
 }
 .footer {
     background-color: var(--primary-color);
