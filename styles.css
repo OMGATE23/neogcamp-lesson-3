@@ -51,6 +51,10 @@ hr {
 
 }
 
+.link-active{
+    font-weight: bold;
+}
+
 .navigation{
     background-color: var(--primary-color);
     color: white;
