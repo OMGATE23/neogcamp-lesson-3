@@ -99,36 +99,6 @@ header {
     font-weight: bold;
 }
 
-@media (max-width: 650px) {
-
-    .container-nav {
-        padding: 0 0.5rem;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    #nav-title {
-        margin-bottom: 0.5rem;
-        margin-top: 0;
-    }
-
-    #nav-list {
-        margin-top: 0;
-        /* margin-right: 1em; */
-        padding-right: 0;
-        align-self: flex-end;
-    }
-
-    #nav-list li {
-        padding: 0 1rem;
-        
-    }
-
-    #nav-list li:last-child {
-        margin-right: 1rem;
-    }
-}
-
 
 .project-intro {
     max-width: 750px;
@@ -141,13 +111,15 @@ header {
     grid-template-columns: repeat(3, 1fr);
     margin: auto;
     max-width: 1200px;
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
 .project-div {
     height: 400px;
     width: 300px;
+    margin: 1rem auto;
     /* outline: 2px solid black; */
-    margin: 2rem;
     padding: 1rem;
     box-shadow: 10px 10px 25px 1.5px lightgray;
     border-radius: 1.5rem;
@@ -189,10 +161,97 @@ header {
     padding: 0.5rem 1rem;
 }
 
-@media(max-width: 950px){
-    .project-container {
+@media(max-width: 1250px){
+    .projects-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        background-color: pink;
+    }
+
+    .project-div {
+        margin: 1rem auto;
+    }
+}
+
+@media(max-width: 750px){
+    .projects-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width:650px) {
+
+    .container-nav {
+        padding: 0 0.5rem;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #nav-title {
+        margin-bottom: 0.5rem;
+        margin-top: 0;
+    }
+
+    #nav-list {
+        margin-top: 0;
+        /* margin-right: 1em; */
+        padding-right: 0;
+        align-self: center;
+        align-items: flex-start;
+    }
+
+    #nav-list li {
+        padding: 0 1rem;
+        padding-left: 0;
+        
+    }
+
+    #nav-list li:last-child {
+        margin-right: 1rem;
+    }
+}
+
+
+.footer {
+    padding: 2rem;
+
+    background-color: var(--violet-700);
+}
+
+.footer-title-div {
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+
+footer ul {
+    list-style: none;
+    margin: auto;
+
+    max-width: 50%;
+    text-align: center;
+    padding-left: 0;
+
+    
+}
+
+footer ul li {
+    display: inline;
+    padding: 0 1rem;
+    
+}
+footer ul i {
+    font-size: 2rem;
+    color: white;
+}
+
+@media(max-width: 650px){
+    .footer {
+        padding: 1rem;
+    }
+
+    .footer ul {
+        max-width: 75%;
     }
 }
