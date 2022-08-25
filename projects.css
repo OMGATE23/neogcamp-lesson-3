@@ -135,9 +135,13 @@ header {
 .project-p {
     font-size: 1.25rem;
     text-align: center;
-    margin: 2rem auto 2rem auto;
+    margin: 2rem auto 0 auto;
 }
 
+.project-subtitle {
+    color: gray;
+    margin-top: 0;
+}
 .project-div a {
     display: block;
     text-align: center;
@@ -150,7 +154,6 @@ header {
     margin: auto;
     padding: 0.5rem 1rem;
     border-radius: 1rem;
-    margin-top: 2rem;
 }
 
 .project-link-demo {
