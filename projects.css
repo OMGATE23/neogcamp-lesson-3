@@ -148,7 +148,7 @@ header {
     text-decoration: none;
 }
 
-.project-link-source {
+.project-link-demo {
     color: white;
     max-width: 100px;
     margin: auto;
@@ -156,7 +156,7 @@ header {
     border-radius: 1rem;
 }
 
-.project-link-demo {
+.project-link-source {
     max-width: 100px;
     margin: auto;
     margin-top: 1.5rem;
